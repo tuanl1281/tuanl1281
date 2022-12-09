@@ -1,3 +1,3 @@
-### 🥷
+### 🚀
 
-Check out my portfolio here at [dxanh97.dev](https://dxanh97.dev/)
+Check out my space on internet via [tuanl1281.xyz](https://tuanl1281.xyz/)
