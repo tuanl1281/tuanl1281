@@ -1,0 +1,11 @@
+@import 'theme';
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  svg {
+    fill: $color-secondary !important;
+    margin-right: 8px;
+  }
+}

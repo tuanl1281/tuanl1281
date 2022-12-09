@@ -1,0 +1,78 @@
+@import 'theme';
+
+.wrapper {
+  display: flex;
+  margin-bottom: 70px;
+
+  .timeline {
+    width: 100px;
+    margin-right: 10px;
+    
+    .icon {
+      position: relative;
+      margin-right: 10px !important;
+      margin-left: 11.5px !important;
+
+      svg {
+        fill: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+
+      .shadow {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: $color-white;
+        filter: blur(46px);
+      }
+    }
+
+    .linear {
+      width: 3px;
+      height: 100%;
+      margin-left: 21.5px !important;
+      background: linear-gradient(#d2a8ff, #a371f7 10%, #196c2e 70%, #2ea043 80%, #56d364);
+    }
+  }
+
+  .content {
+    margin-right: 10px;
+
+    .company-role {
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
+
+    .role {
+      color: $color-secondary !important;
+      span {
+        color: $color-secondary !important;
+      }
+    }
+
+    .company {
+      color: $color-secondary !important;
+      span {
+        color: $color-secondary !important;
+      }
+    }
+
+    .period {
+      color: $color-tertiary !important;
+      span {
+        color: $color-tertiary !important;
+      }
+    }
+
+    .detail {
+      margin: 16px 0;
+
+      b {
+        color: $color-primary !important;
+      }
+    }
+  }
+}

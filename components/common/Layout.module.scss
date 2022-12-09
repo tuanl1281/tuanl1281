@@ -1,0 +1,23 @@
+@import 'theme';
+
+.wrapper {
+  margin: -10px;
+  font-family: Lekton;
+  font-size: 20px;
+  line-height: 24px;
+  * {
+    cursor: none;
+    color: $color-white;
+  }
+}
+
+.background {
+  img {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: -2050px;
+    max-width: calc(230vw + 1670px);
+    transform: rotateY(180deg);
+  }
+}
