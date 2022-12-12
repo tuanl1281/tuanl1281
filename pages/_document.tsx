@@ -6,7 +6,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name="description" content="<dxanh97 />" />
+          <meta name="description" content="<tuanl1281 />" />
           <link
             href="https://fonts.googleapis.com/css2?family=Lekton:wght@400;500;700&display="
             rel="stylesheet"

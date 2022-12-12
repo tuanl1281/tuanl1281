@@ -9,7 +9,7 @@ import Techs from '../components/portfolio/Techs';
 import Interests from '../components/portfolio/Interests';
 import Experiences from '../components/portfolio/Experiences';
 
-import css from '../styles/index.module.scss';
+import css from './index.module.scss';
 
 const aboutMe = `A self-learning, open-minded software engineer. Expertise in C#/JavaScript/Typescript with over ${
   new Date().getFullYear() - 2020
