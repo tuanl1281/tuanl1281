@@ -11,7 +11,7 @@ import Experiences from '../components/portfolio/Experiences';
 
 import css from './index.module.scss';
 
-const aboutMe = `A self-learning, open-minded software engineer. Expertise in C#/JavaScript/Typescript with over ${
+const aboutMe = `A self-learning, open-minded software engineer. Expertise in C#/JavaScript/TypeScript with over ${
   new Date().getFullYear() - 2020
 } years of experience. Software development is truly a craft and I aim to be a better craftsman on each passing day.`;
 

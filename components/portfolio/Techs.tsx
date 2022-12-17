@@ -1,13 +1,8 @@
 import React from 'react';
 import {
-  SiAmazonaws,
   SiEslint,
-  SiFirebase,
   SiGit,
-  SiGithubactions,
   SiJavascript,
-  SiNestjs,
-  SiNextdotjs,
   SiNodedotjs,
   SiPrettier,
   SiReact,

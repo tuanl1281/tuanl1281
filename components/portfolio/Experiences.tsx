@@ -9,7 +9,7 @@ interface ExperienceRefs {
 
 const experienceList = (refs: ExperienceRefs) => [
   {
-    role: 'Frontend Developer',
+    role: 'Front-End Developer',
     company: 'Bakco',
     companyURL: 'https://www.bakco.com.vn/',
     ref: refs.$bakco,
@@ -26,17 +26,17 @@ const experienceList = (refs: ExperienceRefs) => [
         </p>
         <p className={css['detail']}>
           <span>
-            Led Front-End team of 2 to develop several apps like:
+            Develop several apps like:
             <br />• <b>CDS (Control Disease System)</b> for <b>HCDC (HCMC Center for
             Disease Control)</b> to record and manage the Covid-19 infection chains in HCM city.
-            <br />• <b>PQM</b> for <b>USAID (United States Agency of International Development)</b> to record and statistic HIV/AIDS infection in HCM city.
+            <br />• <b>PQM</b> for <b>USAID (United States Agency of International Development)</b> to ensure the quality, safety, and efficacy of medicines.
           </span>
         </p>
       </>
     ),
   },
   {
-    role: 'Fullstack Developer',
+    role: 'Full-Stack Developer',
     company: 'Titkul',
     companyURL: 'https://www.titkul.com/',
     ref: refs.$titkul,
@@ -48,6 +48,21 @@ const experienceList = (refs: ExperienceRefs) => [
           <span>
             Updated the company&apos;s system and add a CI config to build
             bundles automatically using <b>Jenkins</b>.
+          </span>
+        </p>
+        <p className={css['detail']}>
+          <span>
+            Outsourced for <b>Viet Thang Jean</b> to help build an admin dashboard that manages human resources (information, attendances, benefits,...)
+          </span>
+        </p>
+        <p className={css['detail']}>
+          <span>
+            Used <b>.Net Core</b>, <b>SignalR</b>, <b>MQTT</b> to create a module for managing <b>IoT Devices</b>.
+          </span>
+        </p>
+        <p className={css['detail']}>
+          <span>
+            Supported product team to communicate with <b>Facial recognition system</b>.
           </span>
         </p>
       </>
