@@ -57,6 +57,11 @@ const experienceList = (refs: ExperienceRefs) => [
         </p>
         <p className={css['detail']}>
           <span>
+            Used <b>NodeJS</b>, <b>React</b> to create a website to share contact (phone number, email, ....) by using NFC or QR
+          </span>
+        </p>
+        <p className={css['detail']}>
+          <span>
             Used <b>.Net Core</b>, <b>SignalR</b>, <b>MQTT</b> to create a module for managing <b>IoT Devices</b>.
           </span>
         </p>
