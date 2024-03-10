@@ -5,31 +5,42 @@ import css from './Experience.module.scss';
 interface ExperienceRefs {
   $bakco: RefObject<HTMLAnchorElement>;
   $titkul: RefObject<HTMLAnchorElement>;
+  $aonetek: RefObject<HTMLAnchorElement>;
 }
 
 const experienceList = (refs: ExperienceRefs) => [
   {
-    role: 'Front-End Developer',
-    company: 'Bakco',
-    companyURL: 'https://www.bakco.com.vn/',
-    ref: refs.$bakco,
-    period: 'August 2020 — July 2021',
+    role: 'Full-Stack Developer',
+    company: 'Aonetek',
+    companyURL: 'https://aonetek.vn/',
+    ref: refs.$aonetek,
+    period: 'March 2023 - Present',
     // prettier-ignore
     details: (
       <>
         <p className={css['detail']}>
           <span>
-            Was responsible for developing <b>Hospital Management</b> module to help
-            hospitals easily manage their internal resources and connect with
-            others using only one platform.
+            Refactored legacy code to improve reliability, scalability and maintainability.
           </span>
         </p>
         <p className={css['detail']}>
           <span>
-            Develop several apps like:
-            <br />• <b>CDS (Control Disease System)</b> for <b>HCDC (HCMC Center for
-            Disease Control)</b> to record and manage the Covid-19 infection chains in HCM city.
-            <br />• <b>PQM</b> for <b>USAID (United States Agency of International Development)</b> to ensure the quality, safety, and efficacy of medicines.
+            Collaborated with a production team to ensure that the garments were made according to the design specs.
+          </span>
+        </p>
+        <p className={css['detail']}>
+          <span>
+            Developed a module for generating dynamic report.
+          </span>
+        </p>
+        <p className={css['detail']}>
+          <span>
+            Optimized queries for better performance.
+          </span>
+        </p>
+        <p className={css['detail']}>
+          <span>
+            Implemented a message queue architecture that improved background task and balanced it between nodes on system.
           </span>
         </p>
       </>
@@ -68,6 +79,33 @@ const experienceList = (refs: ExperienceRefs) => [
         <p className={css['detail']}>
           <span>
             Supported product team to communicate with <b>Facial recognition system</b>.
+          </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    role: 'Front-End Developer',
+    company: 'Bakco',
+    companyURL: 'https://www.bakco.com.vn/',
+    ref: refs.$bakco,
+    period: 'August 2020 — July 2021',
+    // prettier-ignore
+    details: (
+      <>
+        <p className={css['detail']}>
+          <span>
+            Was responsible for developing <b>Hospital Management</b> module to help
+            hospitals easily manage their internal resources and connect with
+            others using only one platform.
+          </span>
+        </p>
+        <p className={css['detail']}>
+          <span>
+            Develop several apps like:
+            <br />• <b>CDS (Control Disease System)</b> for <b>HCDC (HCMC Center for
+            Disease Control)</b> to record and manage the Covid-19 infection chains in HCM city.
+            <br />• <b>PQM</b> for <b>USAID (United States Agency of International Development)</b> to ensure the quality, safety, and efficacy of medicines.
           </span>
         </p>
       </>

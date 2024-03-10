@@ -22,6 +22,7 @@ const Home: NextPage = () => {
 
   const $bakco = useRef<HTMLAnchorElement>(null);
   const $titkul = useRef<HTMLAnchorElement>(null);
+  const $aonetek = useRef<HTMLAnchorElement>(null);
 
   return (
     <div className={css['scroll-wrapper']}>
@@ -42,7 +43,7 @@ const Home: NextPage = () => {
           <div>
             <InformationSection
               header="Experiences"
-              content={Experiences({ $bakco, $titkul })}
+              content={Experiences({ $bakco, $titkul, $aonetek })}
             />
           </div>
         </div>
